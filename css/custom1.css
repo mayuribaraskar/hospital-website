@@ -1,0 +1,70 @@
+.dcothead{
+
+    color: red;
+    font-style: italic;
+    font-family: ui-sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -18px !important;
+    left: 0;
+    z-index: 15;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+
+.hospital-carousel-indicators {
+    position: static;
+    margin-top: 20px;
+}
+ol, ul, dl {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.carousel .card {
+    width: 30%;
+    border: 1px solid #fff;
+}
+.bg-pink {
+    background-color: #f8d7da;
+}
+.card-title {
+    color: red;
+    font-family: 'Times New Roman', serif;
+}
+.card-text {
+    font-family: Arial, sans-serif;
+}
+.dcth3{
+    color: red;
+    font-style: italic;
+    font-family: ui-sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+.doctorcarsel{
+    background-color: #add8e63b;
+}
+.carousel-indicators li {
+    background-color: #add8e63b !important;
+    border-radius: 50% !important;
+    width: 12px !important;
+    height: 12px !important;
+    margin-bottom: -35px !important;
+}
+.text-boldclass{
+    font-weight: 600;
+    font-size: 30px;
+}

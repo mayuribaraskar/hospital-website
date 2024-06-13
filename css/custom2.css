@@ -1,0 +1,139 @@
+
+.hospital-carousel .card {
+    width: 30%;
+    border: 3px dotted red;
+}
+.hospital-card-title {
+    color: black;
+    font-family: 'Times New Roman', serif;
+    font-weight: 600;
+}
+.hospital-card-text {
+    font-family: Arial, sans-serif;
+}
+.hospital-carousel-indicators {
+    position: static;
+    margin-top: 20px;
+}
+.hospital-carousel-indicators li {
+    background-color: red;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+}
+.hospital-carousel-indicators .active {
+    background-color: darkred !important;
+}
+.hospital-image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.hospt1 {
+    color: red;
+    font-style: italic;
+    font-family: ui-sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.hospt2 {
+    color: red;
+    font-style: italic;
+    font-family: ui-sans-serif;
+    font-size: 20px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -28px !important;
+    left: 0;
+    z-index: 15;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+
+.treatment .php-email-form {
+    height: 85%;
+    padding: 30px;
+    border-radius: 10px;
+    border-top: 3px solid #47b2e4;
+    border-bottom: 3px solid #47b2e4;
+    box-shadow: 0px 0px 20px 
+    color-mix(in srgb, #444444, transparent 90%);
+}
+
+.treatment .php-email-form input[type=text], .contact .php-email-form input[type=email], .contact .php-email-form textarea {
+    font-size: 14px;
+    padding: 10px 15px;
+    box-shadow: none;
+    border-radius: 0;
+    color: #444444;
+    background-color: 
+    color-mix(in srgb, 444444, transparent 50%);
+    border-color: 
+    color-mix(in srgb, 444444, transparent 80%);
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: grey;
+    background-clip: padding-box;
+    border: 2px solid grey;
+    border-radius: grey;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.formh3{
+    font-family: 'Font Awesome 5 Brands';
+    font-weight: 600;
+}
+
+.treatment .php-email-form button[type=submit] {
+    color: white;
+    background: rgb(42, 144, 227);
+    border: 0;
+    padding: 10px 30px;
+    transition: 0.4s;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.midsection {
+    border: 0;
+    border-top: 2px dashed skyblue;
+    margin: 20px 0;
+}
+.homehead{
+    color:white;
+    font-size: 30px;
+}
+.homesubhead{
+    color:white;
+    font-size: 15px;;
+}
+
+.dottedline2{
+    border: 0;
+    border-top: 2px dashed skyblue;
+    margin: 20px 0;
+
+}

@@ -1,0 +1,280 @@
+
+/* faq section css */
+
+.section-title-faq h3 {
+    font-size: 30px;
+    line-height: 50px;
+    color: #222222;
+    font-weight: 700;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.accordion-section .accordion-holder {
+    margin-top: 40px;
+}
+
+.panel-group {
+    margin-bottom: 20px;
+}
+
+.accordion-section .accordion-holder .panel-default {
+    box-shadow: none;
+    border-radius: 0;
+}
+.panel-group .panel {
+    margin-bottom: 0;
+    border-radius: 4px;
+}
+.panel-default {
+    border-color: #ddd !important;
+}
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.accordion-section .accordion-holder .panel-default .panel-heading {
+    background: #fff;
+    padding: 0;
+    border-radius: 0;
+}
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+}
+.panel-group .panel-heading {
+    border-bottom: 0;
+}
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.accordion-section .accordion-holder .panel-default .panel-heading h4 {
+    position: relative;
+}
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+}
+.accordion-section .accordion-holder .panel-default .panel-heading h4 a.collapsed {
+    background: #fff;
+    color: #000;
+}
+.accordion-section .accordion-holder .panel-default .panel-heading h4 a {
+    font-weight: bold;
+    font-family: 'Roboto';
+    font-size: 16px;
+    display: block;
+    /* background: #48bdc5; */
+    color: #48bdc5;
+    padding: 20px 30px;
+    transition: all .3s ease;
+}
+/* .collapse {
+    display: none;
+} */
+
+.collapse.in {
+    display: block;
+}
+
+accordion-section .accordion-holder .panel-default .panel-body {
+    padding: 20px 30px;
+}
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color: #ddd;
+}
+.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
+    border-top: 1px solid #ddd;
+}
+.panel-body {
+    padding: 15px;
+}
+
+
+/* .accordion-section .accordion-holder .panel-default .panel-heading h4 a.collapsed:before {
+    content: '\f107';
+    position: absolute;
+    font-family: FontAwesome;
+}
+.accordion-section .accordion-holder .panel-default .panel-heading h4 a:before {
+    content: '\f106';
+    position: absolute;
+    right: 20px;
+    font-family: FontAwesome;
+} */
+
+.plusicon {
+    padding: 1%;
+    color: #5da7f1;
+}
+
+.dashed-hr {
+    border: 0;
+    border-top: 2px dashed skyblue;
+    margin: 20px 0;
+}
+
+/* end here */
+
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-item .col-md-4 {
+    padding: 15px;
+}
+.section-title-carsel {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+/* .testimonial img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+} */
+.carselimg .img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+
+}
+.testimonial .name {
+    font-weight: bold;
+}
+.testimonial .location {
+    color: gray;
+}
+.quote-icon {
+    font-size: 24px;
+    color: #FF69B4; /* Adjust color as needed */
+}
+.card-head-carsel {
+    text-align: left;
+    color: #2e3280;
+    font-weight: 600;
+}
+
+.carousel-control-prev {
+    left: 0;
+}
+.carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 98%;
+    z-index: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 15%;
+    color: #fff;
+    text-align: center;
+    opacity: 0.5;
+    -webkit-transition: opacity 0.15s ease;
+    -o-transition: opacity 0.15s ease;
+    transition: opacity 0.15s ease;
+}
+
+.carseimgclass {
+    border:none !important;
+}
+
+.card-text{
+    text-align: left;
+}
+.contentleftside {
+    text-align: left;
+}
+
+.call-to-action {
+    --background-color:#1c9ec6;
+    --default-color: #ffffff;
+    --contrast-color: #ffffff;
+    padding: 80px 0;
+    position: relative;
+    clip-path: inset(0);
+}
+
+.call-to-action:before {
+    content: "";
+    background: #1c9ec6;
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+}
+
+.call-to-action img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+.call-to-action .container {
+    position: relative;
+    z-index: 3;
+}
+.call-to-action h3 {
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+}
+.call-to-action p {
+    color: white;
+    margin-left: 25%;
+    margin-top: -5%;
+}
+.offers-btn {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin: 10px;
+    margin-left: 46%;
+    border: 2px solid white;
+    color: white !important;
+}
+
+.action-callreq.d-flex {
+    border-right: 3px solid #cde8e2;
+    margin-right: 50%;
+}
+.bottomhr{
+    color:white;
+    border: 0;
+    border-top: 2px solid skyblue;
+    margin: 20px 0;
+}
+
